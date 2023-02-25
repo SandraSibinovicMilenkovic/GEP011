@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Body';
+    src: url('font/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('font/Roboto-Bold.ttf');
+}
+body{
+    max-width: 1920px;
+    overflow-x: hidden;
+    font-family: 'Body';
+    background-image: url('slike/cover\ copy.jpg');
+    background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+     align-items: center;
+}
+header img{  
+    width: 140px;
+    padding-left: 10px;
+    padding-top: 32px;
+}
+p{
+    font-size: 20px;
+}
+#dugmeKontakt{
+    width: 90px;
+    height: 50px;
+    margin-right: 25px;
+    background-color: rgb(32, 31, 28);
+    color: rgb(234, 200, 128);
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#dugmeKontakt:hover{
+    color: rgb(32, 31, 28);
+    background-color: rgb(234, 200, 128);
+    
+}
+#cover{
+   background-image: url('slike/cover\ copy.jpg');
+   height: 980px;
+   width: 1920px;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   
+}
+#cover a {
+    width: 50%;
+    font-size: 45px;
+    color: #FFF;
+    position: absolute;
+    left: 77%;
+    top: 67%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+  }
+  h1{
+    font-family: 'RobotoBold';
+    width: 30%;
+    font-size: 45px;
+    color: #FFF;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    animation: example 1s;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes example {
+    0%   { left:65%; top:0px;
+    opacity: 0;}
+    100%  {left:65%; top:50%;
+    opacity: 1;}
+    
+  }
+  #cover button{
+    width: 240px;
+    height: 55px;
+    background-color: rgb(32, 31, 28);
+    color: rgb(234, 200, 128);
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    
+  }
+  #cover button:hover{
+    color: rgb(32, 31, 28);
+    background-color: rgb(234, 200, 128);
+    transform: scale(1.1)
+    
+}
+#pozadina{
+    background-color: #ffffffd4;
+    width: 100%;
+}
+#omotac{
+    height: 3500px;
+   width: 60%;
+   margin: 0 auto;
+   
+}
+ h2{
+    font-family: 'RobotoBold';
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+  #oNama{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #piktogrami{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .sest{
+    width: 33.33%;
+    
+  }
+  .sest img{
+    width: 50%;
+  }
+   .sest p{
+    text-align: center;
+   }
+   
+   #restorani img, #hoteli img, #skladiste img,#gradjevina img,  #poljoprivreda img,#fabrike img {
+    margin: auto;
+    display: block;
+   }
+
+   #restorani img{
+   margin-left:  13%;
+   }
+   #gradjevina img{
+    margin-left: 30%;
+   }
+   
+   #oNama p{
+    text-align: center;
+   }
+   #drugiPasus{
+    margin-top: 50px;
+    
+   }
+   #drugiPasus p{
+    text-align: left;
+    padding: 5px;
+   }
+
+   #radnje{
+    margin-top: 30px;
+   }
+   #kontejner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   }
+   .tri{
+    width: 25%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .tri img{
+    width: 50%;
+   }
+   .tri p{
+    width: 50%;
+    text-align: center;
+   }
+   #galerija{
+    margin-top: 50px;
+    
+   }
+#galerijaKontejner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+   
+
+#kontakt{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+}
+#kontakt a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+#telefon img, #mejl img{
+    width: 40%;
+}
+
+#mejl, #telefon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#mejl a:hover, #telefon a:hover{
+    transform: scale(1.1);
+}
+
+#galerijaKontejner {
+    height: 1860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+#galerijaKontejner > div {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+.animacija-klasa {
+    opacity: 0; 
+    transition: opacity 2s ease-in-out; 
+    transform: translateY(-50px); 
+  }
+  
+  .animacija-klasa.animirano {
+    opacity: 1; 
+    transform: translateY(0); 
+  }

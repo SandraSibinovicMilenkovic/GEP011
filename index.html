@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stil.css">
+    <link rel="shortcut icon" href="slike/logo.png">
+    <title>GEP 011</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="slike/logo.png" alt="logo"></a>
+        <button id="dugmeKontakt">Kontakt</button>
+    </header>
+    
+    <section id="cover">
+        <h1>Zapošljavanje radnika iz zemalja trećeg sveta</h1>
+        <a href="mailto:sandrasibinovicmilenkovic@gmail.com">
+            <button>Proverite dostupne pozicije</button>
+        </a>
+    </section>
+
+    <div id="pozadina">
+        <h2>O NAMA:</h2>
+        <div id="omotac">
+            
+            <div id="oNama">
+                <p>Nudimo kvalifikovanu i nekvalifikovanu radnu snagu u sledećim industrijama:</p> 
+                <div id="piktogrami">
+                    <div class="sest"> 
+                        <div id="restorani">
+                        <img src="slike/restoran.png" alt="restoran"> <p>restorani</p>
+                        </div>
+                    </div>
+
+                    <div class="sest"> 
+                        <div id="hoteli">
+                        <img src="slike/hotel.png" alt="hotel"> <p>hoteli</p>
+                        </div>
+                    </div>
+
+                    <div class="sest"> <div id="skladiste">
+                        <img src="slike/skladiste.png" alt="skladiste"> <p>skladišta, magacini</p></div>
+                    </div>
+                    <div class="sest"> <div id="fabrike">
+                        <img src="slike/fabrika.png" alt="fabrike"> <p>fabrike</p></div>
+                    </div>
+                    
+                    <div class="sest">
+                        <div id="gradjevina">
+                        <img src="slike/gradjevina.png" alt="građevina"> <p>građevina</p></div>
+                    </div>
+                    <div class="sest"> <div id="poljoprivreda">
+                        <img src="slike/poljop.png" alt="poljoprivreda"> <p>poljoprivreda</p></div>
+                    </div>
+                    
+                </div>
+                <div id="drugiPasus">
+                    <p>Poslednjih nekoliko godina, većina kompanija se suočava sa nedostatkom radne snage, što može dovesti do problema u postizanju visokih performansi i ometanja daljeg razvoja poslovanja uopšte. Ovaj trend može biti posledica različitih faktora, uključujući ekonomsku situaciju, demografske promene i sve veću konkurenciju na tržištu rada. Nedostatak radne snage može dovesti do povećanja troškova rada, usporenja rasta i gubitka konkurentske prednosti. Stoga, poslodavci često traže alternative, kao što su strani radnici ili automatizacija, kako bi nadomestili ovaj nedostatak i osigurali dalji razvoj svojih kompanija.</p>
+            
+            
+                
+                    <p> Gep 011 je kompanija za posredovanje i regrutaciju stranih radnika iz trećih zemalja, većinom iz Azije (Bangladeš, Indija, Nepal) i Latinske Amerike (Kuba, Ekvador, Kolumbija, Meksiko). Kompanija posluje u Srbiji i na različitim tržištima širom Evrope.</p>
+                </div>
+            
+            </div>
+
+            <div id="radnje">
+                <h2>Kako zaposliti kvalitetnog stranog radnika i obezbediti mu radnu dozvolu? Kontaktirajte nas.</h2>
+                <div id="kontejner" class="animacija-klasa">
+                
+                    <div class="tri">
+                        <img src="slike/dokumentacija.png" alt="dokumentacija">
+                        <p>Asistiramo pri dobijanju potrebne dokumentacije</p>
+                    </div>
+                    <div class="tri">
+                        <img src="slike/intervju.png" alt="intervju">
+                        <p>Pažljivo intervjuišemo i selektujemo kandidate</p>
+                    </div>
+                    <div class="tri">
+                        <img src="slike/garancija.png" alt="garancija">
+                        <p>Garantujemo kvalitetnu i obučenu radnu snagu</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <script>
+                function isElementInViewport(el) {
+                    var rect = el.getBoundingClientRect();
+                    return (
+                    rect.top >= 0 &&
+                    rect.left >= 0 &&
+                    rect.bottom <=
+                        (window.innerHeight || document.documentElement.clientHeight) &&
+                    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+                    );
+                }
+                
+                var animacioniElementi = document.querySelectorAll('.animacija-klasa');
+                
+                function proveriAnimaciju() {
+                    for (var i = 0; i < animacioniElementi.length; i++) {
+                    var animacioniElement = animacioniElementi[i];
+                    if (isElementInViewport(animacioniElement)) {
+                        animacioniElement.classList.add('animirano');
+                    }
+                    }
+                }
+              
+                window.addEventListener('scroll', proveriAnimaciju);
+              </script>
+
+            <div id="galerija">
+                <h2>PREDNOSTI ZAPOŠLJAVANJA STRANIH RADNIKA:</h2>
+    
+                <div id="galerijaKontejner">
+                    <div id="galerijaKontejnerLevi">
+                        <img src="slike/kuvar.jpg" alt="kuvar">
+                        <p>Zahvaljujući njihovim jedinstvenim znanjima i veštinama, koji se razlikuju od lokalnih radnika, poslodavac može angažovati vrhunske talente po nižoj ceni.</p>
+
+                         <img src="slike/indija kelner.jpg" alt="kelner">
+
+                         <p>Naša kompanija dovodi samo visoko kvalifikovane i dobro obučene radnike, koji su fokusirani na rad i spremni da daju sve od sebe. Oni su takođe veoma voljni da rade prekovremene sate, kao bonus za dodatni napor koji ulažu u svoj posao.</p>
+
+                        <img src="slike/poljoprivreda.jpg" alt="kolumbija">
+
+                        <p>S obzirom na niže cene rada stranih radnika u poređenju sa lokalnom radnom snagom, poslodavci mogu da ostvare značajne uštede i poboljšaju svoju konkurentnost na globalnom tržištu. Smanjenje troškova rada može dovesti do poboljšanja profitabilnosti poslovanja, što može biti ključno za dugoročni razvoj kompanije i njen uspeh.</p>
+
+                        <img src="slike/azija2.jpg" alt="fabrika">
+
+                    </div>
+
+                    <div id="galerijaKontejnerDesni">
+                        <p>Strani radnici su izuzetno predani, poštovanja vredni, marljivi, pouzdani, lojalni i izuzetno produktivni, bez obzira na oblast u kojoj rade. </p>
+                        <img src="slike/meksiko.jpg" alt="meksikanac">
+                        <p>Radnici koji dolaze iz zemalja u kojima imamo predstavništva su poznati po svojoj izdržljivosti, zbog čega su veoma cenjeni. Oni su izuzetno vredni i motivisani da rade, što ih čini dragocenim resursom na tržištu rada. </p>
+                        <img src="slike/gradjevinar.jpg" alt="gradjevinar">
+                        <p>Angažovanje strane radne snage omogućava poslodavcima da smanje troškove rada i ostvare veću dobit. Ovo može imati pozitivan uticaj na razvoj proizvodnje i poslovanje u njihovoj zemlji na međunarodnom tržištu. </p>
+                        <img src="slike/indija.jpg" alt="indija">
+                        <p>Stoga, angažovanje strane radne snage može biti jedna od mnogih strategija koju poslodavci mogu koristiti kako bi poboljšali svoju efikasnost i konkurentnost.</p>
+
+                    </div>      
+                        
+                    </div>
+                </div>
+            
+
+
+            <div id="kontakt">
+                <div id="telefon">
+                    <a href="tel:+3816300000"> 
+                        <img src="slike/telefon.png" alt="telefon">
+                        <p>Pozovite nas</p>
+                    </a>
+                </div>
+                <div id="mejl">
+                    <a href="mailto:gep011@gmail.com"> 
+                        <img src="slike/mejl.png" alt="mejl">
+                        <p>gep011@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    
+
+    </div>
+
+</body>
+</html>
